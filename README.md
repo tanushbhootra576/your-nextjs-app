@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🎮 Tic Tac Toe Game
 
-First, run the development server:
+A simple, interactive Tic Tac Toe game built using NEXT , JavaScript and CSS. Play with a friend on the same device and enjoy the classic 3x3 grid game!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🧩 How It Works
+
+- Two players take turns placing X and O on a 3x3 grid.
+- The first player to align three symbols in a row, column, or diagonal wins.
+- If all cells are filled without a winner, the game ends in a draw.
+- A "Restart" button lets you reset the game anytime.
+
+## 📂 Project Structure
+
+```
+your-nextjs-app/
+├── .next/
+├── node_modules/
+├── public/
+│   └── favicon.ico
+├── src/
+│   └── app/
+│       ├── components/
+│       │   ├── GameBoard.js
+│       │   ├── Log.js
+│       │   ├── Player.js
+│       │   └── WinnerModal.js
+│       ├── lib/
+│       │   └── helper.js
+│       ├── game.css
+│       ├── globals.css
+│       ├── layout.js
+│       └── page.js
+├── .gitignore
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.js
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+└── README.md
+ 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Clone the repo
+- Run npm install
+- Run npm run dev to start the app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✅ Features
 
-## Learn More
+- Simple and intuitive interface
+- Playable on desktop and mobile browsers
+- Instant win/draw detection
+- Reset functionality
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- React
+- JavaScript
+- CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📈 Future Improvements
 
-## Deploy on Vercel
+- Add a single-player mode with AI
+- Add animation and sound effects
+- Track player scores
+- Make it multiplayer over network
+## Contributing
+Feel free to fork this project, make enhancements, and open pull requests!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Developed by Tanush Bhootra
